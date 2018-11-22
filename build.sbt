@@ -2,9 +2,10 @@ name := "webapp-curriculum-2009-3"
 
 version := "1.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.7"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 
-libraryDependencies += "org.mockito" % "mockito-core" % "1.10.19" % "test"
+libraryDependencies += "org.mockito" % "mockito-core" % "2.21.0" % "test"
 
+scalacOptions ++= Seq("-encoding", "UTF-8")
